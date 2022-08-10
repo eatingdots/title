@@ -9,7 +9,6 @@ const conjunctions = [
   "que",
   "mas",
   "tao",
-  "tamanho",
   "quando",
   "ainda",
 ];
@@ -71,9 +70,6 @@ export const specials = [
   "unidades",
   "lata",
   "latas",
-  "fatia",
-  "preferência",
-  "tamanho",
   // Roman Numerals
   "I",
   "II",
