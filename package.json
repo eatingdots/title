@@ -1,11 +1,12 @@
 {
-  "name": "title",
+  "name": "@eatingdots/title",
   "version": "3.5.0",
-  "description": "Capitalize your titles properly",
+  "description": "Capitalize titles properly",
   "main": "./lib/index.js",
-  "repository": "vercel/title",
+  "repository": "eatingdots/title",
   "scripts": {
-    "test": "ava"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "keywords": [
     "title",
@@ -15,22 +16,15 @@
     "of",
     "style"
   ],
-  "bin": {
-    "title": "./bin/title.js"
-  },
   "files": [
-    "bin",
     "lib"
   ],
-  "author": "leo",
+  "author": "Wlad Paiva",
   "license": "MIT",
   "dependencies": {
-    "arg": "1.0.0",
-    "chalk": "2.3.0",
-    "clipboardy": "1.2.2",
-    "titleize": "1.0.0"
+    "remove-accents": "^0.4.2"
   },
   "devDependencies": {
-    "ava": "0.25.0"
+    "vitest": "^0.21.1"
   }
 }
