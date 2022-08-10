@@ -29,7 +29,9 @@ const prepositions = [
   "contra",
   "de",
   "da",
+  "das",
   "do",
+  "dos",
   "desde",
   "em",
   "no",
@@ -45,7 +47,6 @@ const prepositions = [
   "sob",
   "sobre",
   "tras",
-  "vão",
 ];
 
 export const lowerCase = new Set([

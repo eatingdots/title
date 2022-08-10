@@ -1,6 +1,6 @@
 {
   "name": "@eatingdots/title",
-  "version": "3.5.3",
+  "version": "3.5.4",
   "description": "Capitalize titles properly",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
