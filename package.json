@@ -3,7 +3,10 @@
   "version": "3.5.0",
   "description": "Capitalize titles properly",
   "main": "./lib/index.js",
-  "repository": "eatingdots/title",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eatingdots/title.git"
+  },
   "scripts": {
     "test": "vitest",
     "coverage": "vitest run --coverage"
@@ -26,5 +29,12 @@
   },
   "devDependencies": {
     "vitest": "^0.21.1"
+  },
+  "bugs": {
+    "url": "https://github.com/eatingdots/title/issues"
+  },
+  "homepage": "https://github.com/eatingdots/title#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
