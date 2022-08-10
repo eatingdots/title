@@ -58,14 +58,37 @@ export const lowerCase = new Set([
 // special cases
 export const specials = [
   "BBQ",
+  "H2OH!",
   "IPA",
   "LN",
   "EA",
+  "RIS",
+  "GT",
+  "ml",
   "uni",
-  "gás",
+  "unidade",
+  "unidades",
+  "lata",
+  "latas",
   "fatia",
   "preferência",
   "tamanho",
+  // Roman Numerals
+  "I",
+  "II",
+  "III",
+  "IV",
+  "V",
+  "VI",
+  "VII",
+  "VIII",
+  "IX",
+  "X",
+  "XI",
+  "XII",
+  "XIII",
+  "XIV",
+  "XV",
 ];
 
 // sometimes users just get it wrong
